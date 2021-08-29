@@ -31,11 +31,11 @@ def score_game(random_predict) -> int:
     """
     counts = []
     # np.random.seed(1) # init random seed
-    random_array = np.random.randint(1, 101, size=1000)
+    random_array = np.random.randint(1, 101, size=10000)
     for number in random_array:
         counts.append(random_predict(number))
     
-    score = int(np.mean(counts))
+    score = np.mean(counts)
     print(f"Your algoritm guess number for {score} attempts.")
     return score
 
