@@ -2,9 +2,9 @@
 
 import numpy as np
 
-number = np.random.randint(1,101)
+number = np.random.randint(1, 101)
 
-count = 0 # attempts
+count = 0  # attempts
 
 while True:
     count += 1
@@ -15,5 +15,6 @@ while True:
     elif predict_number < number:
         print("Number must be greater")
     else:
-        print(f"You guessed the number. This is number = {number}, by {count} attempts.")
+        print(f"You guessed the number. "
+              f"This is number = {number}, by {count} attempts.")
         break
