@@ -6,6 +6,8 @@ From the [SkillFactory Data Science course](https://skillfactory.ru/data-science
 
 * [Project 0. Game: Guess the number](https://github.com/qwerty-team/sf_data_science/tree/master/project_0)
 * [Project 1a. Анализа вакансий на hh.ru](https://github.com/qwerty-team/sf_data_science/tree/master/project_1a)
+### working projects
+* [Модуль PYTHON-13. Визуализация данных](https://github.com/qwerty-team/sf_data_science/tree/master/python-13)
 <!-- * [Project 1. ________](____) -->
 <!-- * [Project 2. ________](____) -->
 
